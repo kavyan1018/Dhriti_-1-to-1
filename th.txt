@@ -1,0 +1,43 @@
+dev -> 
+    1. web development
+        -> 1. frontend development
+            1. HTML/CSS
+            2. JavaScript
+    2. mobile app development
+        -> 1. backend development
+            1. Python
+            2. Java
+    3. database management
+        -> 1. SQL
+        -> 2. PLSQL
+
+
+------------------------------------------
+Html -> hyper text markup language
+
+version -> html 5
+2014
+
+css -> for styling the HTML pages
+------------------------------------------
+
+
+html -> 
+
+    tags : open and close tags
+    -> <html> </html>
+    
+    <br> : line break tag ? 
+    -> <br> is a self closing tag
+
+
+    <!DOCTYPE html> : declaration that defines this document as HTML5
+    <html lang="en"> : lang attribute specifies the language of the document 
+
+    <head> : contains metadata about the HTML document
+        -> <title> : title of the HTML document
+        -> <meta> : metadata about the HTML document
+            -> <meta charset="UTF-8"> : character encoding of the HTML document
+            -> <meta name="viewport" content="width=device-width, initial-scale=1.0"> : viewport settings for responsive design
+    <body> : contains the content of the HTML document
+
