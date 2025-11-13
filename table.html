@@ -10,6 +10,9 @@
         tr -> table row
         td -> table data
         th -> table header
+
+        rowspan -> row span : to merge rows
+        colspan -> column span : to merge columns
     -->
     
     <table border="1" bordercolor="blue"  bgcolor="skyblue">
@@ -22,16 +25,16 @@
         </tr>
 
         <tr align="center" bgcolor="red">
-            <td>1</td>
-            <td>John Doe</td>
-            <td>10</td>
+            <!-- <td>1</td> -->
+            <td  colspan="2">John Doe</td>
+            <td rowspan="2">10</td>
             <td>A</td>
         </tr>
 
         <tr>
             <td>2</td>
             <td>Jane Smith</td>
-            <td>10</td>
+            <!-- <td >10</td> -->
             <td>B</td>
         </tr>
 
